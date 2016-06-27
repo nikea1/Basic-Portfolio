@@ -32,6 +32,7 @@ nav{
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+
 }
 
 body{
@@ -157,12 +158,14 @@ a h3{
 .project_link{
 	float:left;
 	width: 274px;
+	text-decoration: none;
 	
 }
 
 .project_link2{
 	float:right;
 	width: 274px;
+	text-decoration: none;
 	
 }
 /*end of portfolio*/
