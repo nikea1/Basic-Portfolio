@@ -126,6 +126,46 @@ textarea{
 	font-size: 16px;
 
 }
+/* end of contacts*/
+
+/*Portfolios*/
+
+#projects{
+	margin-top: 39px;
+	width: 588px;
+	position: relative;
+}
+
+a h3{
+	/*display: inline;*/
+	/*width: 274px;*/
+	margin:0;
+	text-decoration: none;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	/*height: 60px;*/
+	padding: 20px ;
+	text-align: center;
+	position: relative;
+	bottom: 75px;
+	/*position: absolute;
+	top: 137px;*/
+}
+
+
+
+.project_link{
+	float:left;
+	width: 274px;
+	
+}
+
+.project_link2{
+	float:right;
+	width: 274px;
+	
+}
+/*end of portfolio*/
 
 aside{
 	width: 208px;
