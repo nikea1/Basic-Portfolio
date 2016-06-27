@@ -3,54 +3,63 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<!-- header -->
-		<header>
-			<h1>Adenike Adeyemi</h1>
-		</header>	
-		
-		<!-- navigation links -->
-		<nav>		
-			<a href="index.html">About</a>
-			<a href="portfolio.html"> Portfolio</a>
-			<a href="#"> Contact</a>
-		</nav>		
+		<div id="header-container">
+			<!-- header -->
+			<header>
+				<h1>Adenike Adeyemi</h1>
+			</header>	
 			
-		<!-- Contact form -- >
-		<section>
-			<h1>Contact</h1>
-			<hr>
-			<label>Name:</label>
-			<br>
-			<input type="text" name="name">
-			<br>
-			<label>E-mail:</label>
-			<br>
-			<input type="text" name="email">
-			<br>
-			<label>Message:</label>
-			<br>
-			<textarea></textarea>
-			<br>
-			<input type="submit" name="Submit">
-		</section>
-		
-		<!-- Contact links -->
-		<aside>
-			<h2>Contact Me With</h2>
-			<hr>
+			<!-- navigation links -->
+			<nav>	
+				<p>	
+				<a href="index.html">About</a> |
+				<a href="portfolio.html"> Portfolio</a> |
+				<a href="#"> Contact</a>
+				</p>
+			</nav>		
+		</div>
 
-			<a href="https://github.com/nikea1">
-				<img src="assets/images/1466570767_29.png" alt="GitHub" height="64" width="64"></a>
+		<div id="mid-container">
+			<!-- Contact form -->
+			<section>
+				<h1 class="sub-header">Contact</h1>
+				
+				<hr />
+				<form>
+					<label>Name</label>
+					<br />
+					<input class="text-input" type="text" name="name" value="John Smith">
+					<br />
+					<label>E-mail</label>
+					<br />
+					<input class="text-input" type="text" name="email" value="example@gmail.com">
+					<br />
+					<label>Message</label>
+					<br />
+					<textarea></textarea>
+					<br />
+					<input class="submit-button" type="submit" name="Submit"> 
+				</form>
+			</section>
 			
-			<a href="https://www.linkedin.com/in/adenike-adeyemi-38809a117">
-				<img src="assets/images/1466570776_square-linkedin.png" alt="LinkedIn" height="64" width="64"></a>
-			
-			<a href="http://stackoverflow.com/users/6491566/nike-adeyemi">
-				<img src="assets/images/1466570780_stackoverflow-square-social-media.png" alt="StackOverFlow" height="64" width="64"></a>
-		</aside>
+			<!-- Contact links -->
+			<aside>
+				<h2 class="sub-header">Contact Me With</h2>
+				<hr>
 
+				<a href="https://github.com/nikea1">
+					<img src="assets/images/1466570767_29.png" alt="GitHub" height="64" width="64"></a>
+				
+				<a href="https://www.linkedin.com/in/adenike-adeyemi-38809a117">
+					<img src="assets/images/1466570776_square-linkedin.png" alt="LinkedIn" height="64" width="64"></a>
+				
+				<a href="http://stackoverflow.com/users/6491566/nike-adeyemi">
+					<img src="assets/images/1466570780_stackoverflow-square-social-media.png" alt="StackOverFlow" height="64" width="64"></a>
+			</aside>
+		</div>
 		<!-- footer -->
 		<footer>
 			&copy; Copyright 2016 Adenike Adeyemi

@@ -18,6 +18,11 @@ header{
 	float: left;	
 }
 
+header h1{
+	margin-left: 36px;
+	margin-right: 36px;
+}
+
 nav{
 	margin: 29px;
 	margin-right: 160px;
@@ -34,7 +39,7 @@ body{
 
 }
 
-nav a,  p {
+nav a,  p, label, .text-input, textarea, .submit-button {
 	color: #777777;
 	text-decoration: none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -84,6 +89,43 @@ section hr{
 }
 
 
+/*Contact*/
+form{
+	margin-top: 27px;
+}
+
+.text-input{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 10px;
+	font-size: 14px;
+	width: 566px;
+	color: darkgray;
+	margin: 10px 0px 20px 0px;
+}
+
+textarea{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 10px;
+	font-size: 12px;
+	width: 566px;
+	height: 178px;
+	color: darkgray;
+	margin: 10px 0px 20px 0px;
+}
+
+.submit-button{
+	height: 40px;
+	width: 120px;
+	border: none;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 16px;
+
+}
 
 aside{
 	width: 208px;
