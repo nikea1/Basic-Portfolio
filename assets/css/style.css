@@ -12,15 +12,32 @@ header{
 
 	background: #4aaaa5;
 	color: #ffffff;
+	font-weight: bold;
 	
 	margin-left: 160px;
 	padding: 10px;	
 	float: left;	
 }
 
+h1{
+	font-size: 26px;
+}
+
+h1.sub-header{
+	margin: 10px 0px 35px 0px;
+}
+
+h2.sub-header{
+	margin-bottom: 22px;
+}
+
+h2{
+	font-size: 18px;
+}
+
 header h1{
-	margin-left: 36px;
-	margin-right: 36px;
+	margin: 0px 36px;
+	padding: 22px 0px;
 }
 
 nav{
@@ -32,6 +49,7 @@ nav{
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
 
 }
 
@@ -140,15 +158,17 @@ textarea{
 a h3{
 	/*display: inline;*/
 	/*width: 274px;*/
+	font-weight: normal;
+	font-size: 18px;
 	margin:0;
 	text-decoration: none;
 	background-color: #4aaaa5;
 	color:#ffffff;
 	/*height: 60px;*/
-	padding: 20px ;
+	padding: 21px ;
 	text-align: center;
 	position: relative;
-	bottom: 75px;
+	bottom: 73px;
 	/*position: absolute;
 	top: 137px;*/
 }
