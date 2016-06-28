@@ -1,11 +1,50 @@
+/* Sticky Footer */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+footer, .push {
+	clear: both;
+	height: 4em;
+}
+/* End of Sticky Footer stuff*/
+
+body{
+	background-image: url("../images/asanoha-400px.png");
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+
+}
+
 #header-container {
 	height: 90px;
 	background: #ffffff;
 	border-bottom-style: solid;
-	border-bottom--width: 2px;
+	border-bottom-width: 2px;
 	border-color: #cccccc;
 	overflow: auto;
 
+}
+
+h1{
+	font-size: 26px;
+}
+
+h2{
+	font-size: 18px;
 }
 
 header{
@@ -13,26 +52,9 @@ header{
 	background: #4aaaa5;
 	color: #ffffff;
 	font-weight: bold;
-	
 	margin-left: 160px;
 	padding: 10px;	
 	float: left;	
-}
-
-h1{
-	font-size: 26px;
-}
-
-h1.sub-header{
-	margin: 10px 0px 35px 0px;
-}
-
-h2.sub-header{
-	margin-bottom: 22px;
-}
-
-h2{
-	font-size: 18px;
 }
 
 header h1{
@@ -47,18 +69,7 @@ nav{
 	
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	font-weight: bold;
-
-}
-
-body{
-	background-image: url("../images/asanoha-400px.png");
-
-}
-
-nav a,  p, label, .text-input, textarea, .submit-button {
+nav a, p, label, .text-input, textarea, .submit-button {
 	color: #777777;
 	text-decoration: none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -70,17 +81,24 @@ nav p{
 	vertical-align: middle;
 }
 
-p{
-	line-height: 2;
+nav a:hover{
+	color:#4AAAA5;
+}
+
+nav a:active{
+	color:#AA6B4A;
+}
+
+h1.sub-header{
+	margin: 10px 0px 35px 0px;
+}
+
+h2.sub-header{
+	margin-bottom: 22px;
 }
 
 .sub-header{
 	color: #4aaaa5;
-}
-
-#self-image{
-	margin: 20px 20px 20px 0px;
-	float:left;
 }
 
 #mid-container{
@@ -106,9 +124,22 @@ section hr{
 	background-color: #dddddd;
 	border: none;
 }
+/* About styles*/
+.container{
+	margin-top: 20px;
+}
 
+#self-image{
+	margin: 10px 20px 20px 0px;
+	float:left;
+}
 
-/*Contact*/
+p{
+	line-height: 2;
+}
+/*end of About Styles*/
+
+/*Contact styles*/
 form{
 	margin-top: 27px;
 }
@@ -173,8 +204,6 @@ a h3{
 	top: 137px;*/
 }
 
-
-
 .project_link{
 	float:left;
 	width: 274px;
@@ -199,11 +228,13 @@ aside{
 	float: right;
 	padding: 30px;
 
+
 }
 
 aside a{
 	float:left;
 	width:33.3%;
+	margin-top: 25px;
 }
 
 aside hr{
@@ -222,6 +253,7 @@ footer{
 	border-color: #4aaaa5;
 	border-top-width: 8px;
 	padding: 50px;
-	clear:both;
+	height:0;
+	
 	
 }
